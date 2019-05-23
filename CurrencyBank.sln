@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyBank", "CurrencyBank\CurrencyBank.csproj", "{8890B682-AA09-4657-A2D2-9E1EB48CC4D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyBank.Domain", "CurrencyBank.Domain\CurrencyBank.Domain.csproj", "{D6C83EBD-C344-4C8D-AF08-A9D43026D172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyBank.Storage", "CurrencyBank.Storage\CurrencyBank.Storage.csproj", "{C7A22308-9B52-444B-A3D4-13FFFE356B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyBank.Service", "CurrencyBank.Service\CurrencyBank.Service.csproj", "{044D1D73-DFCD-4027-89F6-BED445F594E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyBank.Infrastructure", "CurrencyBank.Infrastructure\CurrencyBank.Infrastructure.csproj", "{1B1F7F34-6FB7-456F-8729-3BF326D2F5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyBank.Utils", "CurrencyBank.Utils\CurrencyBank.Utils.csproj", "{202196DE-EEEB-4509-9CF9-A3AA535B0046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{8890B682-AA09-4657-A2D2-9E1EB48CC4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8890B682-AA09-4657-A2D2-9E1EB48CC4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8890B682-AA09-4657-A2D2-9E1EB48CC4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C83EBD-C344-4C8D-AF08-A9D43026D172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C83EBD-C344-4C8D-AF08-A9D43026D172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C83EBD-C344-4C8D-AF08-A9D43026D172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C83EBD-C344-4C8D-AF08-A9D43026D172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A22308-9B52-444B-A3D4-13FFFE356B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A22308-9B52-444B-A3D4-13FFFE356B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A22308-9B52-444B-A3D4-13FFFE356B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A22308-9B52-444B-A3D4-13FFFE356B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044D1D73-DFCD-4027-89F6-BED445F594E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044D1D73-DFCD-4027-89F6-BED445F594E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044D1D73-DFCD-4027-89F6-BED445F594E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044D1D73-DFCD-4027-89F6-BED445F594E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1F7F34-6FB7-456F-8729-3BF326D2F5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1F7F34-6FB7-456F-8729-3BF326D2F5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1F7F34-6FB7-456F-8729-3BF326D2F5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1F7F34-6FB7-456F-8729-3BF326D2F5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202196DE-EEEB-4509-9CF9-A3AA535B0046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202196DE-EEEB-4509-9CF9-A3AA535B0046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202196DE-EEEB-4509-9CF9-A3AA535B0046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202196DE-EEEB-4509-9CF9-A3AA535B0046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
